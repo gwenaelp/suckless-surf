@@ -5,6 +5,7 @@ static char *useragent      = "Mozilla/5.0 (X11; U; Unix; en-US) "
 static char *stylefile      = "~/.surf/style.css";
 static char *scriptfile     = "~/.surf/script.js";
 static char *cookiefile     = "~/.surf/cookies.txt";
+static char *historyfile    = ".surf/history.txt";
 static time_t sessiontime   = 3600;
 static char *cafile         = "/etc/ssl/certs/ca-certificates.crt";
 static char *strictssl      = FALSE; /* Refuse untrusted SSL connections */
